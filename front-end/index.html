@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>layout</title>
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<meta charset="utf-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$(".bar").click(function() {
+				$("#menuUpdate ul").slideToggle()
+			});
+		});
+
+	</script>
+</head>
+
+<body>
+	<header>
+		<div id="backgroundTop">
+			<div id="headerContent">
+				<div class="icon-top">
+					<img src="images/Makestyle.png" />
+					<img src="images/Makestyle1.png" />
+					<img src="images/Makestyle1 (copy).png" />
+				</div>
+				<nav id="menuTop">
+					<ul>
+						<li><a href="#" title="kundesen">KUNESSENTER</a></li>
+						<li><a href="#" title="logg inn min sida">LOGG INN MIN SIDE</a></li>
+						<li><a href="#" title="favorier">FAVORTER</a></li>
+						<li class="menu-sub">
+
+
+							<a class="link-menu" href="#" title="handlekury">
+								<i class="fa fa-caret-down"></i><strong>HANDLEKURY</strong></a>
+							<div class="submenu-content">
+								<img src="images/Makestyle4.png" />
+							</div>
+						</li>
+						<li><img width="30px" src="images/store1.png" id="imageStore1" /></li>
+						<li><img width="35px" src="images/store.png" id="imageStore" /></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div id="logo">
+			<img class="logo-page" src="images/logo.png" />
+		</div>
+		<div id="handlekurv-mobile">
+			<a href="#" title="handlekurv-mobile"><strong>HANDLEKURV</strong></a>
+			<img width="25px" src="images/store1.png" />
+		</div>
+		<nav id="menuTop-mobile">
+			<ul>
+				<li><a href="#" title="kundesen">KUNESSENTER</a></li>
+				<li><a href="#" title="logg inn min sida">LOGG INN MIN SIDE</a></li>
+				<li><a href="#" title="registeredeg">REGISTERE DEG</a></li>
+				<li><a href="#" title="favoriter">FAVORITER</a></li>
+			</ul>
+		</nav>
+
+		<div id="menuUpdate">
+			<div id="bar">
+				<img width="30px" class="bar" src="images/bar.png" alt=""></div>
+			<ul>
+
+				<li><a href="#" title="TIL HENNE">TIL HENNE</a></li>
+				<li><a href="#" title="TIL HANNA">TIL HANNA</a></li>
+				<li><a href="#" title="DUFT">DUFT</a></li>
+				<li><a href="#" title="MERKER">TMERKER</a></li>
+				<li><a href="#" title="ACCESSOARER">ACCESSOARER</a></li>
+				<li><a href="#" title="OKOLOGISK"> ØKOLOGISK</a></li>
+				<li><a href="#" title="TILBUD">TILBUD</a></li>
+			</ul>
+			<div class="box">
+
+				<input type="search" id="search" placeholder="SØk PRODUKTER..." /><i id="invert" class="fa fa-search"></i>
+			</div>
+		</div>
+
+	</header>
+	<main>
+		<div id="banner">
+			<div>
+				<img width="15px" class="image-add" src="images/add.png" alt="">
+			</div>
+			<div class="img-banner">
+				<img width="100%" src="images/banner.png" />
+				<div>
+					<img width="40px" class="image-slide" src="images/Makestyle-slide.png" alt="">
+				</div>
+
+				<div>
+					<img width="40px" class="image-slide2" src="images/Makestyle-next.png" alt="">
+				</div>
+				<div>
+					<img width="15px" class="image-slide1" src="images/Makestyle-slide1.png" alt="">
+				</div>
+			</div>
+
+			<div id="menuSelect">
+				<ul>
+					<li><a class="nyhener" href="#" title="NYHETER DESEMEMR">NYHETER DESEMEMR</a></li>
+					<li class="Bestse"><a class="bestse" href="#" title="BESTSELGERE">BESTSELGERE</a></li>
+					<li><a class="tilbud" href="#" title="TILBUD">TILBUD</a></li>
+					<li><a class="make" href="#" title="MAKESTYLE ANBEFALER">MAKESTYLE ANBEFALER</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="listTop">
+
+
+			<ul>
+				<li>
+					<div id="itemTop">
+						<div class="item-Favorter">
+							<div class="favo">
+								<a href="#" title="favorier">BESTSELGERE</a>
+							</div>
+							<div class="mobile-next">
+								<img src="images/images-mobile/Makestyle-mobile-iconnext1.png" />
+								<img src="images/images-mobile/Makestyle-mobile-iconnextright1.png" />
+
+							</div>
+						</div>
+						<div class="item" align="center">
+							<img class="eos" src="images/item11.png" />
+							<img class="heart" src="images/heart_marked.png" />
+							<!-- <img src="images/kiop.png" /> -->
+						</div>
+						<div class="item-content">
+							<img class="eye" src="images/eye-marked.png" />
+							<p class="top-Content1">TL FRESH FRUIT</p>
+							<p class="top-Content-bottom">224 ,-<br>
+								<br><strong>-224,-</strong> </p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div id="itemTop" class="itemTop-mobile2">
+						<div class="item-Favorter">
+							<div class="favo">
+								<a href="#" title="favorier">MAKESTYLE ANBEFALER</a>
+							</div>
+							<div class="mobile-next">
+								<img src="images/images-mobile/Makestyle-mobile-iconnext1.png" />
+								<img src="images/images-mobile/Makestyle-mobile-iconnextright1.png" />
+
+							</div>
+						</div>
+						<div class="item" align="center">
+							<img class="eos" src="images/item2.png" />
+							<img class="heart" src="images/heart.png" />
+							<!-- <img src="images/kiop.png"/> -->
+						</div>
+						<div class="item-content">
+							<!-- <img class="eye" src="images/eye_maked.png"/> -->
+							<p class="top-Content">TL FRESH FRUIT</p>
+							<p class="top-Content-bottom">224,- <br>
+								<br><strong>-224,-</strong> </p>
+						</div>
+					</div>
+				</li>
+
+
+				<li>
+					<div id="itemTop" class="item-top-notdesktop">
+						<div class="item-Favorter">
+							<div class="favo">
+								<a href="#" title="favorier">NYHETER</a>
+							</div>
+							<div class="mobile-next">
+								<img src="images/images-mobile/Makestyle-mobile-iconnext1.png" />
+								<img src="images/images-mobile/Makestyle-mobile-iconnextright1.png" />
+
+							</div>
+						</div>
+						<div class="item" align="center">
+							<img class="eos" src="images/item2.png" />
+							<img class="heart" src="images/heart.png" />
+							<!-- <img src="images/kiop.png"/> -->
+						</div>
+						<div class="item-content">
+							<!-- <img class="eye" src="images/eye_maked.png"/> -->
+							<p class="top-Content">TL FRESH FRUIT</p>
+							<p class="top-Content-bottom">224,- <br>
+								<br><strong>-224,-</strong> </p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div id="itemTop" class="item-top-notdesktop">
+						<div class="item-Favorter">
+							<div class="favo">
+								<a href="#" title="favorier">TILBUD</a>
+							</div>
+							<div class="mobile-next">
+								<img src="images/images-mobile/Makestyle-mobile-iconnext1.png" />
+								<img src="images/images-mobile/Makestyle-mobile-iconnextright1.png" />
+
+							</div>
+						</div>
+						<div class="item" align="center">
+							<img class="eos" src="images/item2.png" />
+							<img class="heart" src="images/heart.png" />
+							<!-- <img src="images/kiop.png"/> -->
+						</div>
+						<div class="item-content">
+							<!-- <img class="eye" src="images/eye_maked.png"/> -->
+							<p class="top-Content">TL FRESH FRUIT</p>
+							<p class="top-Content-bottom">224,- <br>
+								<br><strong>-224,-</strong> </p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div id="itemTop" class="item-top-notmobile">
+						<div class="item-Favorter">
+							<div class="favo">
+								<a href="#" title="favorier">FAVORTER</a>
+							</div>
+							<div class="mobile-next">
+								<img src="images/images-mobile/Makestyle-mobile-iconnext1.png" />
+								<img src="images/images-mobile/Makestyle-mobile-iconnextright1.png" />
+
+							</div>
+						</div>
+						<div class="item" align="center">
+							<img class="eos" src="images/item3.png" />
+							<img class="heart" src="images/heart.png" />
+							<!-- <img src="images/kiop.png"/> -->
+						</div>
+						<div class="item-content">
+							<!-- <img class="eye" src="images/eye_maked.png"/> -->
+							<p class="top-Content">TL FRESH FRUIT</p>
+							<p class="top-Content-bottom">224 <br>
+								<br><strong>-224</strong> </p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div id="itemTop" class="item-top-notmobile">
+						<div class="item-Favorter">
+							<div class="favo">
+								<a href="#" title="favorier">FAVORTER</a>
+							</div>
+							<div class="mobile-next">
+								<img src="images/images-mobile/Makestyle-mobile-iconnext1.png" />
+								<img src="images/images-mobile/Makestyle-mobile-iconnextright1.png" />
+
+							</div>
+						</div>
+						<div class="item" align="center">
+							<img class="eos" src="images/item4.png" />
+							<img class="heart" src="images/heart.png" />
+							<!-- <img src="images/kiop.png"/> -->
+						</div>
+						<div class="item-content">
+							<img class="eye" src="images/eye.png" />
+							<p class="top-Content">TL FRESH FRUIT</p>
+							<p class="top-Content-bottom">224 <br>
+								<br><strong>-224</strong> </p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div id="itemTop" class="item-top-notmobile">
+						<div class="item-Favorter">
+							<div class="favo">
+								<a href="#" title="favorier">FAVORTER</a>
+							</div>
+							<div class="mobile-next">
+								<img src="images/images-mobile/Makestyle-mobile-iconnext1.png" />
+								<img src="images/images-mobile/Makestyle-mobile-iconnextright1.png" />
+
+							</div>
+						</div>
+						<div class="item" align="center">
+							<img class="eos" src="images/item5.png" />
+							<img class="heart" src="images/heart.png" />
+							<div>
+								<!-- <img src="images/kiop.png"/> -->
+							</div>
+						</div>
+						<div class="item-content">
+							<img class="eye" src="images/eye.png" />
+							<p class="top-Content">TL FRESH FRUIT</p>
+							<p class="top-Content-bottom">224 <br>
+								<br><strong>-224</strong> </p>
+						</div>
+					</div>
+					<div id="itemTopmake">
+						<img src="images/images-mobile/item-mobile.png" />
+						<img src="images/images-mobile/item-mobile2.png" />
+						<img src="images/images-mobile/item-mobile3.png" />
+					</div>
+					<div id="logoInsta">
+						<img class="logoInstagram" src="images/images-mobile/item-logo.png" />
+						<p><strong>MAKESTYLE VIA INSTAGRAM</strong></p>
+					</div>
+					<div id="itemToplogo">
+						<img src="images/images-mobile/left.png" />
+						<img width="120px" src="images/images-mobile/logo-left.png" />
+						<img width="120px" src="images/images-mobile/logo-right.png" />
+						<img src="images/images-mobile/right.png" />
+					</div>
+					<div id="itemTopterm">
+						<img width="50px" src="images/images-mobile/Makestyle-mobile-term1.png" />
+						<img width="60px" src="images/images-mobile/mobile-term2.png" />
+						<img width="60px" src="images/images-mobile/mobile-term3.png" />
+						<img width="60px" src="images/images-mobile/mobile-term4.png" />
+						<img width="60px" src="images/images-mobile/mobile-term5.png" />
+					</div>
+					<div id="itemTopesta">
+						<p><strong>UTVALAGE MAKER</strong></p>
+						<img width="310px" src="images/images-mobile/Makestyle-mobile-establish.png" />
+						<img width="310px" src="images/images-mobile/Makestyle-mobile-establis2.png" />
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div id="listBottom">
+			<ul>
+				<li>
+					<img width="300px" src="images/girl.png" />
+					<div class="item-Bottom">
+						<p align="left" class="bottom-Content1">SISTE MYTT FRA <br>MAKESTYLEBLOGGEN</p>
+					</div>
+				</li>
+				<li>
+					<img width="300px" src="images/item6.png" />
+					<div class="item-Bottom">
+						<p class="bottom-Content">NEGLER OG NEGLEPELIE</p>
+					</div>
+				</li>
+				<li>
+					<img width="300px" src="images/item7.png" />
+					<div class="item-Bottom">
+						<p class="bottom-Content">GRONN SONE</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</main>
+
+	<footer>
+		<div class="footer-content">
+			<div id="footer-top">
+				<p class="abonnere">
+					ABONNERE NYHETSREV</p>
+				<div class="emai-e">
+					<input width="310px" type="search" id="e-post" placeholder="E-POST ADRESSE" />
+					<img class="next-search" width="28px" src="images/images-mobile/search-footer.png" />
+
+				</div>
+
+				<div class="icon-footer-fb"><img class="face-ic" width="30px" src="images/images-mobile/face-ic.png" />
+					<p class="face-ic-content">FØLG OSS PA FACEBOOK</p>
+				</div>
+				<div class="icon-footer-ig">
+					<img class="ig-ic" width="30px" src="images/images-mobile/ig-ic.png" />
+					<p class="ig-ic-content">FØLG OSS PA INSTAGRM</p>
+				</div>
+			</div>
+			<div class="supppor-footer">
+				<p>
+					<strong>KUNDE SUPPORT</strong></p>
+				<p>666 95 333</p>
+				<p>post@makestyle.no</p>
+			</div>
+			<div class="footer-final">
+				<ul>
+					<li>
+						<h4>KONTAKT OSS</h4>
+						<p>Om Makestyle</p>
+						<p>kontact oss</p>
+						<p>jobb hos oss</p>
+					</li>
+					<li id="li-final1">
+						<h4>HANDLE TRYGR</h4>
+						<p>Betngester</p>
+						<p>Gatatti</p>
+						<p>Reter</p>
+					</li>
+					<li id="li-final2">
+						<h4>MIN KONTO</h4>
+						<p>Hanlekurv</p>
+						<p>Profil</p>
+					</li>
+					<li class="igen" id="li-final3">
+						<p><strong>NGEN TOLLGEBYR</strong></p>
+						<p><strong>90 DANGER APENT KJOP</strong></p>
+						<p><strong>KUN 49 KR FRANKT</strong></p>
+						<p><strong>RASK LAVERING</strong></p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="logo-final">
+			<img class="" src="images/logo-final1.png" />
+			<img class="" src="images/logo-final2.png" />
+			<img class="" src="images/logo-final3.png" />
+		</div>
+		<div class="copy-right">
+			<p>@ 2013 MAKEFILE // DESIGN + CMS NETPOWER</p>
+		</div>
+
+	</footer>
+</body>
+
+</html>
